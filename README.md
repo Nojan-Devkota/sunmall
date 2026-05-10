@@ -1,6 +1,8 @@
 # Sheryians Coding School - Cohort 3.0: Assignment 3 (Design 1)
 ## SunMall Potato Chips Landing Page
 
+**[🚀 View Live Demo Here!](https://nojan-devkota.github.io/sunmall/)**
+
 ### 📝 Overview
 This project is part of **Assignment 3** for the **Sheryians Coding School Cohort 3.0**. It is a vibrant, modern landing page featuring SunMall Potato Chips. The project focuses on translating a high-fidelity reference design into a functional web layout using pure HTML and CSS, specifically targeting complex overlapping elements, breakout components, and precise flexbox layouts.
 
