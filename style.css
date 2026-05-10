@@ -8,4 +8,88 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #faf5ec;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 10px 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+nav img {
+    width: 200px;
+}
+
+
+
+nav .links {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 20px;
+    letter-spacing: -1px;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.search .search-icon{
+    color: #d5a043;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    padding: 5px 10px;
+    border-right: 1px solid black;
+    
+}
+
+.search i {
+    font-size: 18px;
+    color: #333;
+
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-badge{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -20px;
 }
